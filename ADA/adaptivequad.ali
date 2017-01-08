@@ -1,0 +1,53 @@
+V "GNAT Lib v5"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_RECURSION
+RV NO_TASKING
+RV SPARK_05
+
+U adaptivequad%b	adaptivequad.adb	4184b6d4 NE OO PK GE
+
+U adaptivequad%s	adaptivequad.ads	e47b2c40 BN EE NE OO PK GE
+
+D adaptivequad.ads	20161006210459 e47b2c40 adaptivequad%s
+D adaptivequad.adb	20161007215456 a5ff9a94 adaptivequad%b
+D system.ads		20141031112219 0f63a871 system%s
+X 1 adaptivequad.ads
+2V18 F{float} 2>20 2|13s37 13s48 13s55
+2f20 X{float}
+3k9*AdaptiveQuad 2z18 5l5 5e17 2|1b14 63l5 63t17
+4V18*AQuad{float} 4>24 4>33 4>42 2|56b18 61t20
+4f24 A{float} 2|56b24 59r46 60r43
+4f33 B{float} 2|56b33 59r48 60r45
+4f42 EPS{float} 2|56b42 60r47
+X 2 adaptivequad.adb
+3V18 SimpsonRule{float} 3b18 3>30 3>39 14t20 40s33 41s34 59s34
+3f30 A{float} 7r30 8r28 9r39 11r42 13r39
+3f39 B{float} 7r32 8r30 9r41 11r40 13r57
+4f17 C{float} 7m25 13r50
+5f17 H3{float} 9m33 11m33 13r33
+16V18 RecurseASR{float} 16b18 16>29 16>38 16>48 16>60 29s44 33s45 54t20 60s32
+16f29 A{float} 39r31 40r45 51r45
+16f38 B{float} 39r33 41r48 51r47
+16f48 EPS{float} 48r37 51r51
+16f60 Value{float} 43r34 44r47 46r41 49r73
+17f9 C{float} 39m25 40r47 41r46 51r49
+18f17 left{float} 40m25 42r32 49r41 49r58 51r59
+19f17 right{float} 41m25 42r39 49r48 49r65 51r64
+20f17 Sum{float} 42m25 43r28 44r41 46r49
+21f17 Diff{float} 44m33 46m33 48r30
+22f17 LEFTSUM{float} 29m33 52r40
+23f17 RIGHTSUM{float} 33m33 52r50
+24U27 Concurrency 24b27 24>39 24>47 24>56 24>65 24>76 24>88 37l21 37t32 51s33
+24f39 A{float} 29r55
+24f47 B{float} 33r58
+24f56 C{float} 29r57 33r56
+24f65 EPS{float} 29r59 33r60
+24f76 left{float} 29r63 33r64
+24f88 right{float}
+25t30 RecurseLeft 27b35 30l29 30t40
+26t30 RecurseRight 31b35 34l29 34t41
+57f17 Value{float} 59m25 60r51
+
